@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+body {
+background: radial-gradient(#FFFFFF,#A6C1FE);
+}
+
+#text, #midline {
+stroke: black;
+stroke-opacity: 1;
+stroke-dasharray:300;
+stroke-dashoffset:300;
+fill-opacity:0;
+animation: offset 4s ease-out forwards;
+}
+
+@keyframes offset {
+	10% {stroke-dashoffset:300}
+	70% {stroke-dashoffset:0;fill-opacity:0}
+	100%{stroke-dashoffset:0;fill-opacity:1}
+}
