@@ -23,5 +23,5 @@ Created using: Python 3
 Created using: Microsoft SQL Server 2016
 ##### Web Application - Student Desk
 Created using: HTML, JS, QT, CSS, Python Flask
-##### Web Appliaction - Teacher/Administrator
+##### Web Application - Teacher/Administrator
 Created using: HTML, JS, React, CSS, Python Flask 
